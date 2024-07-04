@@ -14,4 +14,8 @@ class WelcomeController extends Controller
     {
         return view('likhitha');
     }
+    public function reethika()
+    { 
+        return view('reethika');
+    }
 }

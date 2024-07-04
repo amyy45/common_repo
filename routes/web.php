@@ -20,4 +20,5 @@ Route::get('/', function () {
 Route::controller(App\Http\Controllers\WelcomeController::class)->group(function(){
     Route::get('/sneha','sneha')->name('sneha');
     Route::get('/likhitha','likhitha')->name('likhitha');
+    Route::get('/reethika','reethika')->name('reethika');
 });
