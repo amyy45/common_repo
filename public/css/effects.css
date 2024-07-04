@@ -1,0 +1,89 @@
+
+
+body {
+    background-color: grey;
+}
+    .container {
+        max-width: 800px;
+        margin: 50px auto ;
+        background-color:white
+   ;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-group {
+        margin-bottom: 20px;
+
+    }
+   
+
+
+    label {
+        font-weight: bold;
+        display: block;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+input[type="number"]
+ {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type="submit"],
+input[type="reset"]{
+        background-color: #F8A384;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: grey;
+    }
+input[type="reset"]:hover {
+        background-color: grey;
+    }
+
+table {
+        width: 80%;
+        margin: 0 auto;        
+ border-collapse: collapse;
+}
+
+th{
+background-color: grey;
+}
+td
+{
+text-align:center;}
+p
+{
+color:yellow ;
+text-align:center;
+}
+#state
+{
+background-color:grey;
+}
+
+.animated-text {
+text-align:center;
+        position: relative;
+        left: -100%;
+        animation: slideIn 2s forwards;
+font-family: "Lucida Handwriting",  Cursive;    }
+@keyframes slideIn {
+    100% {
+        left: 0;
+    }
+
+
+
+
+}
